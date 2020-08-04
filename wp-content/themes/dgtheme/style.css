@@ -4,11 +4,7 @@ Theme URI: https://github.com/dimon41k2010/dg-wordpress
 Author: the Dmytro G.
 Author URI: http://wordpress.org/
 Description: This is my own theme
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
-Text Domain: DGtheme
+Version: 1.0Text Domain: DGtheme
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -43,3 +39,44 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin-top: 0;
     margin-bottom: 1rem;
 }
+/* Parallax Video */
+.parallax {
+    background: url('img/IG_Video.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.bg-img2 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.text-center {
+    text-align: center;
+}
+/* Change check later */
+/* section, .section {
+    position: relative;
+    z-index: 992;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff;
+} */
+
+.section-small {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+

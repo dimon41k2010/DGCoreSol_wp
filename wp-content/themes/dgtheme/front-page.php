@@ -15,7 +15,7 @@ get_header();
 								<div class="personal_text">
 									<h6>Hello Everybody, i am!!!</h6>
 									<h3>Dmytro Gord</h3>
-									<h4>Very Junior Software Developer</h4>
+									<h4>Software QA Engineer</h4>
 									<p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
 									<ul class="list basic_info">
 										<li><a href="#"><i class="lnr lnr-calendar-full"></i> 25th June, 1988</a></li>
@@ -45,8 +45,9 @@ get_header();
         			<div class="col-lg-6">
         				<div class="welcome_text">
         					<h4>About Myself</h4>
-        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-        					<div class="row">
+							<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed. !!! inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+							<!--================ Temp removed =================-->
+        					<!-- <div class="row">
         						<div class="col-md-4">
         							<div class="wel_item">
         								<i class="lnr lnr-database"></i>
@@ -68,7 +69,8 @@ get_header();
         								<p>Total Volunteers</p>
         							</div>
         						</div>
-        					</div>
+							</div> -->
+							<!--================ End temp removed =================-->
         				</div>
         			</div>
         			<div class="col-lg-6">
@@ -225,28 +227,28 @@ get_header();
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>offerings to my clients</h2>
+        			<h2>Industries here I worked</h2>
         			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
         		</div>
         		<div class="feature_inner row">
         			<div class="col-lg-4 col-md-6">
         				<div class="feature_item">
-        					<i class="flaticon-city"></i>
-        					<h4>Architecture</h4>
+        					<i class=" flaticon-sketch"></i>
+        					<h4>Startups</h4>
         					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
         				</div>
         			</div>
         			<div class="col-lg-4 col-md-6">
         				<div class="feature_item">
         					<i class="flaticon-skyline"></i>
-        					<h4>Interior Design</h4>
+        					<h4>Software development companies</h4>
         					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
         				</div>
         			</div>
         			<div class="col-lg-4 col-md-6">
         				<div class="feature_item">
-        					<i class="flaticon-sketch"></i>
-        					<h4>Concept Design</h4>
+        					<i class="flaticon-city"></i>
+        					<h4>Social media corporation</h4>
         					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
         				</div>
         			</div>
@@ -259,7 +261,7 @@ get_header();
         <section class="home_gallery_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Our Latest Featured Projects</h2>
+        			<h2>My Latest Projects</h2>
         			<p>Who are in extremely love with eco friendly system.</p>
         		</div>
         		<div class="isotope_fillter">
@@ -277,8 +279,9 @@ get_header();
         			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
         				<div class="h_gallery_item">
         					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
-        						<a class="light" href="img/gallery/project-1.jpg"><img src="img/gallery/icon.png" alt=""></a>
+								<img class="img-fluid" src="<?php echo get_template_directory_uri().'/img/gallery/project-1.jpg'; ?>" alt="pic">
+								
+        						<a class="light" href="<?php echo get_template_directory_uri().'/img/gallery/project-1.jpg'; ?>"><img src="<?php echo get_template_directory_uri().'/img/gallery/icon.png'; ?>" alt="pic1-1"></a>
         					</div>
         					<div class="g_item_text">
         						<h4>3D Helmet Design</h4>
@@ -289,8 +292,8 @@ get_header();
         			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
         				<div class="h_gallery_item">
         					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
-        						<a class="light" href="img/gallery/project-2.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        						<img class="img-fluid" src="<?php echo get_template_directory_uri().'/img/gallery/project-2.jpg'; ?>" alt="pic2">
+        						<a class="light" href="<?php echo get_template_directory_uri().'/img/gallery/project-2.jpg'; ?>"><img src="<?php echo get_template_directory_uri().'/img/gallery/icon.png'; ?>" alt="pic2-2"></a>
         					</div>
         					<div class="g_item_text">
         						<h4>2D Vinyl Design</h4>
@@ -301,16 +304,17 @@ get_header();
         			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
         				<div class="h_gallery_item">
         					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
-        						<a class="light" href="img/gallery/project-3.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        						<img class="img-fluid" src="<?php echo get_template_directory_uri().'/img/gallery/project-3.jpg'; ?>" alt="pic3">
+        						<a class="light" href="<?php echo get_template_directory_uri().'img/gallery/project-3.jpg'; ?>"><img src="<?php echo get_template_directory_uri().'/img/gallery/icon.png';?>" alt="pic3-3"></a>
         					</div>
         					<div class="g_item_text">
         						<h4>Creative Poster Design</h4>
         						<p>Client Project</p>
         					</div>
         				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
+					</div>
+					   <!--================ Temp deleted =================-->
+        			<!-- <div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
         				<div class="h_gallery_item">
         					<div class="g_img_item">
         						<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
@@ -345,7 +349,8 @@ get_header();
         						<p>Client Project</p>
         					</div>
         				</div>
-        			</div>
+					</div> -->
+					<!--================ End Temp deleted =================-->
         		</div>
         		<div class="more_btn">
         			<a class="main_btn" href="#">Load More Items</a>
@@ -355,10 +360,24 @@ get_header();
         <!--================End Home Gallery Area =================-->
         
         <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120">
+        <section class="testimonials_area p_120 parallax">
+		<!-- parallax Video -->
+
         	<div class="container">
-        		<div class="main_title">
-        			<h2>Testimonials</h2>
+			<section class="section-small bg-img2 text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2"><a href="https://vimeo.com/153485166" class="swipebox-video"><i class="icon icon-big ion-ios-play-outline"></i></a>
+            <h2>Watch <span class="bold">Video</span>
+            </h2>
+            <p>A business has to be involving, it has to be fun, and it has to exercise your creative instincts. Start where you are. Use what you have. Do what you can.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+        		<!-- <div class="main_title">
+        			<h2>MY AWESOME VIDEO</h2>
         			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
         		</div>
         		<div class="testi_inner">
@@ -397,8 +416,8 @@ get_header();
 							</div>
 						</div>
 					</div>
-        		</div>
-        	</div>
+        		</div> -->
+        	</div> 
         </section>
         <!--================End Testimonials Area =================-->
 <?php
